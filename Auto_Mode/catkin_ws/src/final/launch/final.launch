@@ -1,0 +1,7 @@
+<launch>
+
+<include file="/home/paulolbear/catkin_ws/src/lzrobot/launch/move_base.launch"/>
+<node pkg="final" name="image" type="image.py"/>
+
+
+</launch>

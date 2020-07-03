@@ -1,0 +1,6 @@
+@Use the command below in different terminal
+
+roscore
+rosrun rosaria RosAria _port:=/dev/ttyUSB0
+rosrun joycontrol joycontrol
+rosrun joy joy_node

@@ -1,0 +1,6 @@
+@Use the command below in different terminal
+@terminal path should be Auto_Mode/catkin_ws
+
+roscore
+./setup.sh
+./final.sh

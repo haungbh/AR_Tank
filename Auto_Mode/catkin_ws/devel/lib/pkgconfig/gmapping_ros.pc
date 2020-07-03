@@ -1,0 +1,8 @@
+prefix=/home/paulolbear/catkin_ws/devel
+
+Name: gmapping_ros
+Description: Description of gmapping_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/paulolbear/catkin_ws/devel/lib 
+Requires: 

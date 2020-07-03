@@ -1,0 +1,13 @@
+@Send the video stream to the web server,
+@Let all the device under the same WIFI router could watch.
+
+@Pre
+Set parameter ROS_IP={router IP}, could be in bashrc.
+
+@Cmd
+roscore
+roslaunch realsense2_camera *.launch (ex:rs_rgbd.launch)
+rosrun web_video_server web_video_server
+
+@Open
+http:{router IP}:8080

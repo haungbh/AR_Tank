@@ -1,0 +1,8 @@
+prefix=/home/paulolbear/catkin_ws/install
+
+Name: lzrobot
+Description: Description of lzrobot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/paulolbear/catkin_ws/install/lib 
+Requires: 
